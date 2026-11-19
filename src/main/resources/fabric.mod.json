@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mediaplayer",
+  "version": "${version}",
+  "name": "Media Player",
+  "description": "In-game music player: Audius search and streaming, synced LRCLIB lyrics overlay.",
+  "authors": ["skipik488-create"],
+  "contact": {
+    "sources": "https://github.com/skipik488-create/mc-media-player"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.skipik.mediaplayer.MediaPlayerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
